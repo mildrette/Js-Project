@@ -6,9 +6,7 @@
 
 // function
 
-function greet(name) {
-
-    console.log("hello world my name is " + name);
+function greet(name, career, age) {
+    console.log("hello world my name is " + name + " and i work at " + career + " and i am " + age );
 }
-
-greet("mildred");
+greet("mildred", "afkanerd", 30);
