@@ -4,9 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>📝 1. Simple To-Do List (Console Version)</title>
+     <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background-color: #f2f2f2;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    input[type="text"] {
+      padding: 0.5rem;
+      width: 250px;
+      font-size: 1rem;
+    }
+
+    button {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      margin-left: 0.5rem;
+    }
+
+    ul {
+      margin-top: 1rem;
+    }
+
+    li {
+      background: white;
+      padding: 0.5rem;
+      margin-bottom: 0.5rem;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 <body>
     <h1> Simple To-Do List (Console Version)</h1>
+
+    <input type="text" id="taskInput" placeholder="enter your task here ....">
+    <button onclick="handleAddTask()">enter</button>
+
+    <ul id="taskList">
+    </ul>
 
 
     <script src="Script.js"></script>
