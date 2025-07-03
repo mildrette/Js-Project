@@ -33,11 +33,29 @@
 // console.log("Total Friends is : ", friends.length)
 
 /* learning Loops, here learning the For Loops */
-const loops = ["money", "food", "fruits", "hobbies", "coding", "dresses", "reading", "writing", "cleaning"];
-
+const loops = ["money", "food", "fruits", "coding", "dresses", "reading", "writing", "cleaning"];
+ 
+// normal loops
 for (let i = 0; i < loops.length; i++){
-    console.log(`${i + 1}. ${loops[1]}`)
+console.log("list of things i love: ", loops[i])
+}
+
+// how to add numbers in a loops
+for (let i = 0; i < loops.length; i++){
+    console.log(`${i + 1}. ${loops[i]}`)
 };
 
+// for Loops
+
+for (let i = 0; i < 9; i++){
+    console.log("counts: ", i)
+}
 
 
+// while loops
+const items = ["money", "food", "fruits", "coding", "dresses", "reading", "writing", "cleaning"];
+let i = 0;
+while (i < items.length){
+    console.log("while loops: ", items[i])
+    i++;
+}
